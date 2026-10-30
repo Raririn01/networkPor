@@ -48,3 +48,5 @@
 
 - [เล่มรายงาน PDF](docs/computer-science-report.pdf)
 - [ไฟล์ Configuration และคำอธิบาย](configuration/README.md) — สำเนาเทมเพลต Local (Nginx, MySQL, PHP/PHP-FPM) โดยแทนรหัสผ่านด้วย placeholder; ไม่ใช่ configuration ของ production server
+
+เวอร์ชันตามผลคำสั่งจากผู้ดูแลวันที่ 30 ตุลาคม 2026: PHP CLI ภายใน WordPress Docker **8.5.12**, PHP CLI บนโฮสต์ **8.3.6** ส่วนเทมเพลต Local ใน repository ไม่ได้ระบุเวอร์ชันที่ใช้งานจริง ดูรายละเอียดใน [Configuration](configuration/README.md)
