@@ -42,3 +42,9 @@
 ข้อมูลและภาพประกอบอ้างอิงคณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา ดูลิงก์แหล่งที่มาในหน้าเว็บและ `README-INF-NEXT.md` รูปและข้อมูลจากบุคคลที่สามยังเป็นสิทธิ์ของเจ้าของเดิม การส่งเพื่อการศึกษาไม่ได้โอนสิทธิ์เหล่านั้น
 
 ชุดนี้เป็น source สำหรับส่งงานและสร้างเว็บไซต์ตัวอย่าง ไม่ใช่สำเนา server หรือฐานข้อมูลทั้งหมด ยังไม่ได้ทดสอบติดตั้ง WordPress ใหม่จาก repository นี้ และไม่ได้รวมการตั้งค่า Apache, TLS, Docker หรือมาตรการความปลอดภัยบน production
+
+
+## รายงานและไฟล์ Configuration
+
+- [เล่มรายงาน PDF](docs/computer-science-report.pdf)
+- [ไฟล์ Configuration และคำอธิบาย](configuration/README.md) — สำเนาเทมเพลต Local (Nginx, MySQL, PHP/PHP-FPM) โดยแทนรหัสผ่านด้วย placeholder; ไม่ใช่ configuration ของ production server
